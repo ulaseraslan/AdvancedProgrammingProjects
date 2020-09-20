@@ -7,4 +7,5 @@
   ## Project 6 - Templates & Bit Operations
   ## Project 7 - Inheritance & Polymorphism
   ## Project 8 - Multithreading
+  ## Project 9 - GUI Application (Bookstore Store Application)
   
