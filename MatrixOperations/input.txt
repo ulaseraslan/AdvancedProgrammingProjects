@@ -1,0 +1,7 @@
+4
+ABCD
+BCDA
+CDAB
+DABC
+
+3
