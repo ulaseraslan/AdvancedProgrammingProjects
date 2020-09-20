@@ -4,3 +4,4 @@
   ## Project 3 - Two Languages (Queues and Stack implementations)
   ## Project 4 - Constructor & Operator Overloading
   ## Project 5 - Iterator & Operator Overloading
+  ## Project 6 - Templates & Bit Operations
