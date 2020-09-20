@@ -5,3 +5,4 @@
   ## Project 4 - Constructor & Operator Overloading
   ## Project 5 - Iterator & Operator Overloading
   ## Project 6 - Templates & Bit Operations
+  ## Project 6 - Inheritance & Polymorphism
