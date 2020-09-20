@@ -1,0 +1,204 @@
+Content of tr1:
+compute
+computer
+process
+program
+progress
+uni
+unido
+universe
+university
+
+
+Creating tr2 with: tr2(tr1)
+Copy constructor called
+Content of tr1:
+compute
+computer
+process
+program
+progress
+uni
+unido
+universe
+university
+
+Content of tr2:
+compute
+computer
+process
+program
+progress
+uni
+unido
+universe
+university
+
+
+Creating tr3 with: tr3 = tr1
+Copy constructor called
+Content of tr3:
+compute
+computer
+process
+program
+progress
+uni
+unido
+universe
+university
+
+Content of tr4:
+computing
+header
+headphone
+saramago
+zapatista
+
+
+Creating tr5 with: tr5(tr1 + tr4)
+Move constructor called
+Content of tr5:
+compute
+computer
+computing
+header
+headphone
+process
+program
+progress
+saramago
+uni
+unido
+universe
+university
+zapatista
+
+
+Deleting the tr1
+Content of tr1:
+Trie is empty.
+
+Iterator for tr5 is starting:
+[1] compute
+[2] computer
+[3] computing
+[4] header
+[5] headphone
+[6] process
+[7] program
+[8] progress
+[9] saramago
+[10] uni
+[11] unido
+[12] universe
+[13] university
+[14] zapatista
+
+tr2 += tr4
+Content of tr2:
+compute
+computer
+computing
+header
+headphone
+process
+program
+progress
+saramago
+uni
+unido
+universe
+university
+zapatista
+
+Content of tr5:
+compute
+computer
+computing
+header
+headphone
+process
+program
+progress
+saramago
+uni
+unido
+universe
+university
+zapatista
+
+tr5 and tr2 are equal.
+
+tr4 += "gloves"
+Content of tr4:
+computing
+gloves
+header
+headphone
+saramago
+zapatista
+
+
+tr3 = tr3 + tr4
+Move constructor called
+Content of tr3:
+compute
+computer
+computing
+gloves
+header
+headphone
+process
+program
+progress
+saramago
+uni
+unido
+universe
+university
+zapatista
+
+Content of tr5:
+compute
+computer
+computing
+header
+headphone
+process
+program
+progress
+saramago
+uni
+unido
+universe
+university
+zapatista
+
+tr5 and tr3 are not equal.
+
+tr4 = tr4 + "helmet"
+Move constructor called
+Content of tr4:
+computing
+gloves
+header
+headphone
+helmet
+saramago
+zapatista
+
+
+tr4 = "jacket" + tr4
+Move constructor called
+Content of tr4:
+computing
+gloves
+header
+headphone
+helmet
+jacket
+saramago
+zapatista
+
+Press any key to continue . . .
